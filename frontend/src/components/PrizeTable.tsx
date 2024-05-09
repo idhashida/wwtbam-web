@@ -11,7 +11,7 @@ export default function PrizeTable() {
     let i: number = 15
 
     return (
-        <div className='w-full b2d'>
+        <div className='w-full'>
             <div>
                 {values.map(
                     (cur) => <PrizeTableElement index={i--} value={cur}/>

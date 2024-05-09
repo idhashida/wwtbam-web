@@ -7,7 +7,7 @@ import Replacement from './HelpButtons/Replacement'
 
 export default function Help() {
     return (
-        <div className='flex w-full justify-end b2d'>
+        <div className='flex w-full justify-end'>
             <div className='flex flex-col gap-5'>
                 <FromAudience/>
                 <Half/>
