@@ -1,3 +1,8 @@
-from datetime import datetime
+from fastapi import FastAPI
 
-print('\n' + str(datetime.now()) + '\n')
+app = FastAPI()
+
+
+@app.get("/")
+async def hello():
+    return "hello"

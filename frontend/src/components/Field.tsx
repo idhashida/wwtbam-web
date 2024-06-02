@@ -1,8 +1,13 @@
+import { useEffect } from 'react'
 import '../index.css'
 import Answers from './Answers'
 import Help from './Help'
 import Logo from './Logo'
 import PrizeTable from './PrizeTable'
+
+useEffect(() => {
+    
+}, []);
 
 export default function Field() {
     return (
@@ -12,7 +17,11 @@ export default function Field() {
                 <div className='flex flex-col w-full gap-10'>
                     <Logo/>
                     <div className="h-full w-full p-5 text-center border-2 border-primary-to50 border-solid rounded-md">
-                        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cupiditate commodi quos esse? Optio tempora recusandae provident ducimus consectetur veniam.</h1>
+                        <h1>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Voluptatibus cupiditate commodi quos esse? Optio tempora recusandae 
+                            provident ducimus consectetur veniam.
+                        </h1>
                     </div>
                 </div>
                 <PrizeTable/>
